@@ -1,0 +1,71 @@
+/* Background image with a gradient overlay */
+/* .rnd-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('D:\React JS\reactPrac\heramb-laboratory\src\assets\image1.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    color: #4072bc; 
+    text-align: center;
+  } */
+  
+  /* Styling the content box */
+  .rnd-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Headings and paragraph styles */
+  .rnd-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .rnd-content h3 {
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .rnd-content p,
+  .rnd-content ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Animating elements on scroll using AOS */
+  [data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  [data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .rnd-content {
+      padding: 20px;
+    }
+  
+    .rnd-content h2 {
+      font-size: 28px;
+    }
+  
+    .rnd-content h3 {
+      font-size: 22px;
+    }
+  
+    .rnd-content p,
+    .rnd-content ul {
+      font-size: 16px;
+    }
+  }
+  

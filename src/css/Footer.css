@@ -1,0 +1,110 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+footer {
+    background-color: #123055;
+    /* color: white; */
+    text-align: center;
+    /* padding: 10px; */
+    margin-top: auto; 
+    /* width: 100%; */
+  }
+  
+
+  
+  #footer_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* This ensures it wraps on smaller screens */
+    padding: 20px;
+    /* background-color: #070606; */
+    color: white;
+  }
+  
+  .footer-section {
+    flex: 1; /* This makes all sections take equal space */
+    margin: 10px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    #footer_section {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-section {
+      margin: 10px 0;
+    }
+  }
+  
+
+  .indiamart-logo {
+    width: 24px;  /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px;  /* Same spacing as other icons */
+  }
+
+  .indiamart-link {
+    display: flex;
+    align-items: center; /* Centers logo and text vertically */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .indiamart-logo {
+    width: 32px; /* Adjust size as needed */
+    height: auto;
+    padding-top: 20px;
+    margin-right: 15px; /* Spacing between logo and text */
+  }
+  
+  .indiamart-text {
+
+    font-size: 15px; /* Adjust font size as needed */
+  }
+
+
+
+  .footer-copyright {
+    text-align: center;
+    /* padding: 10px 0; */
+    padding-bottom: 30px;
+    background-color:  #123055;
+    color: #f7f1f1;
+    font-size: 14px;
+    /* border-top: 1px solid #ddd; */
+    margin-top: 20px; /* Add spacing between the footer content and the copyright section */
+  }
+  
+  .footer-copyright p {
+    margin: 0;
+  }
+  

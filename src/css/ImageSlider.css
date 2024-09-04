@@ -1,0 +1,75 @@
+.hero-slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide-inner {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home_banner_txt {
+    text-align: center;
+    color: white;
+  }
+  
+  .slide-title, .slide-text, .slide-btns {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .slide-title.animate-in, .slide-text.animate-in, .slide-btns.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .slide-title.animate-out, .slide-text.animate-out, .slide-btns.animate-out {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  .comn_btn {
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .comn_btn:hover {
+    background-color: #000;
+    color: #f9f9f9;
+  }
+
+
+  /* Style for the slide heading */
+.slide-heading h1 {
+    font-size: 46px; /* Increase font size for the heading */
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 100px; /* Add space between heading and title */
+    color: #fcfcfc; /* Ensure the text color is visible over background */
+  }
+  
+  /* Style for the slide title */
+  .slide-title h2 {
+    font-size: 28px; /* Adjust the title font size */
+    margin-bottom: 15px;
+    color: #fff; /* Ensure the text color is visible over background */
+  }
+  
+
+  .slide-text {
+    background-color: transparent; /* Ensure no background color */
+    color: #fff; /* Make sure the text color contrasts well with the background */
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0; /* Remove any padding that could create a visual block */
+    /* Additional styling if needed */
+  }
+  

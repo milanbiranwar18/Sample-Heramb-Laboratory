@@ -1,0 +1,39 @@
+.mission-vision-container {
+  display: flex;
+  flex-direction: row; /* Change to row for side-by-side layout */
+  justify-content: space-around; /* Space out the sections evenly */
+  align-items: center;
+  margin: 50px 0; 
+}
+
+.mission-box,
+.vision-box {
+  flex: 1;
+  background-color: transparent;
+  padding: 20px;
+  margin: 0 20px; /* Adjust margin to create space between the boxes */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mission-box img,
+.vision-box img {
+  width: 80%;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add space between the image and text */
+}
+
+.mission-box h2,
+.vision-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.mission-box p,
+.vision-box p {
+  font-size: 1rem;
+  color: #666;
+}

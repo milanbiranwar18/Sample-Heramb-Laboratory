@@ -1,0 +1,163 @@
+/* Adjust container padding */
+.sustainability {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Increase container width */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Flexbox for centering images */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust column widths */
+.col-md-4 {
+    flex: 0 0 33.333%;
+    padding-right: 15px;
+}
+
+.col-md-8 {
+    flex: 0 0 66.666%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Headings and text styles */
+h2.f-bold.orange {
+    color: #ff7f00;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.f-thin {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.f-light {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.f-light:hover {
+    text-decoration: underline;
+}
+
+/* Layout and styling for images */
+.img-div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.img-wrapp {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapp img {
+    width: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Animation styles for images */
+.img-wrapp.fade-right {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.img-wrapp.fade-up {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.img-wrapp.fade-left {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.img-wrapp.show {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+}
+
+/* Individual image styling */
+.sust-2 {
+    width: 80%;
+    height: auto;
+    max-width: 450px;
+    max-height: 250px;
+}
+
+.sust-3 {
+    width: 60%;
+    height: auto;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.sust-1 {
+    width: 120%;
+    height: 350px;
+    max-width: 1000px;
+    max-height: 350px;
+}
+
+@media (max-width: 768px) {
+    .sust-2, .sust-3, .sust-1 {
+        width: 100%;
+        max-width: none;
+        max-height: none;
+    }
+}
+
+/* Image label styling */
+.f-medium {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bg-orange {
+    background-color: #ff7f00;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+/* Image container positioning */
+.img-right {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

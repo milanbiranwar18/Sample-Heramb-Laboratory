@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import "../css/About.css";
 import MissionVision from './MissionVision';
 import AboutImage from '../assets/about4.png'; // Add your image here
+import TeamMembers from './TeamMembers';
+
 
 function About() {
     useEffect(() => {
@@ -41,6 +43,10 @@ function About() {
             {/* Part 3: Mission and Vision Section */}
             <section className="mission-vision-section">
                 <MissionVision />
+            </section>
+
+            <section>
+                <TeamMembers />
             </section>
         </div>
     );

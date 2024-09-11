@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Sample-Heramb-Laboratory/static/css/main.944f43d0.css",
+    "main.js": "/Sample-Heramb-Laboratory/static/js/main.470f6cc0.js",
+    "static/js/453.80141b32.chunk.js": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js",
+    "static/media/home7.png": "/Sample-Heramb-Laboratory/static/media/home7.154c708e836ad20949cd.png",
+    "static/media/home3.png": "/Sample-Heramb-Laboratory/static/media/home3.383f6e086ca246c67130.png",
+    "static/media/home9.png": "/Sample-Heramb-Laboratory/static/media/home9.a358b966b964b98378e0.png",
+    "static/media/home5.png": "/Sample-Heramb-Laboratory/static/media/home5.104f701e0a3a0f8883dc.png",
+    "static/media/home8.png": "/Sample-Heramb-Laboratory/static/media/home8.69b504d30433dff70a25.png",
+    "static/media/home4.png": "/Sample-Heramb-Laboratory/static/media/home4.5144b7660adad8804a9e.png",
+    "static/media/home1.png": "/Sample-Heramb-Laboratory/static/media/home1.6ab6f09104b0087ac8c1.png",
+    "static/media/Designer2.png": "/Sample-Heramb-Laboratory/static/media/Designer2.48301e898a06341b2fed.png",
+    "static/media/Designer.png": "/Sample-Heramb-Laboratory/static/media/Designer.0fcb533b23c2293d0221.png",
+    "static/media/Designer3.png": "/Sample-Heramb-Laboratory/static/media/Designer3.39195c1e4a1643f0a23a.png",
+    "static/media/about4.png": "/Sample-Heramb-Laboratory/static/media/about4.c9e8c785a8fe54a4f763.png",
+    "static/media/research.png": "/Sample-Heramb-Laboratory/static/media/research.7282ab11a0b329c9c7bb.png",
+    "static/media/testing.png": "/Sample-Heramb-Laboratory/static/media/testing.85cec4e8656316d6fb18.png",
+    "static/media/contact1.png": "/Sample-Heramb-Laboratory/static/media/contact1.a8260711c00d2f392f8e.png",
+    "static/media/Designer1.png": "/Sample-Heramb-Laboratory/static/media/Designer1.791c8a65ac92edb49269.png",
+    "static/media/randd1.png": "/Sample-Heramb-Laboratory/static/media/randd1.58e8d67e883c7fe07bd8.png",
+    "static/media/fa-solid-900.ttf": "/Sample-Heramb-Laboratory/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Sample-Heramb-Laboratory/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Sample-Heramb-Laboratory/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Sample-Heramb-Laboratory/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Sample-Heramb-Laboratory/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/image1.jpg": "/Sample-Heramb-Laboratory/static/media/image1.fc26baf1f834aa7aaf90.jpg",
+    "static/media/fa-regular-400.woff2": "/Sample-Heramb-Laboratory/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/INDIAMART.png": "/Sample-Heramb-Laboratory/static/media/INDIAMART.340ad268140f3903aad7.png",
+    "static/media/Heramb.png": "/Sample-Heramb-Laboratory/static/media/Heramb.ed197d36616a1d85f71a.png",
+    "static/media/fa-v4compatibility.ttf": "/Sample-Heramb-Laboratory/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Sample-Heramb-Laboratory/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Sample-Heramb-Laboratory/index.html",
+    "main.944f43d0.css.map": "/Sample-Heramb-Laboratory/static/css/main.944f43d0.css.map",
+    "main.470f6cc0.js.map": "/Sample-Heramb-Laboratory/static/js/main.470f6cc0.js.map",
+    "453.80141b32.chunk.js.map": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.944f43d0.css",
+    "static/js/main.470f6cc0.js"
+  ]
+}

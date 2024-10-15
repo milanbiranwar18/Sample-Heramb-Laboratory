@@ -5,6 +5,7 @@ import VisionImage from '../assets/Designer1.png';
 
 const MissionVision = () => {
   return (
+    
     <section className="mission-vision-container">
       <div className="mission-box">
         <img src={MissionImage} alt="Our Mission" />
@@ -21,6 +22,7 @@ const MissionVision = () => {
         </p>
       </div>
     </section>
+   
   );
 };
 

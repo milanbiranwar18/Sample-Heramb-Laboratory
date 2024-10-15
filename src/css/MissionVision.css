@@ -1,4 +1,9 @@
+.mission-vision {
+  background-color: white;
+}
+
 .mission-vision-container {
+  background-color: white;
   display: flex;
   flex-direction: row; /* Change to row for side-by-side layout */
   justify-content: space-around; /* Space out the sections evenly */
@@ -12,8 +17,8 @@
   background-color: transparent;
   padding: 20px;
   margin: 0 20px; /* Adjust margin to create space between the boxes */
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
   text-align: center;
 }
 
@@ -36,4 +41,7 @@
 .vision-box p {
   font-size: 1rem;
   color: #666;
+  text-align: left;
+  padding-left: 65px;
+  padding-right: 35px;
 }

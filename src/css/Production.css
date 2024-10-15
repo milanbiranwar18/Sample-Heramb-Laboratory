@@ -1,10 +1,13 @@
+.prod {
+  background-color: white;
+}
+
 /* Production Page Styles */
 .production-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
     background-color: #f9f9f9;
-
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   }
   

@@ -1,8 +1,24 @@
 import React from "react";
 import '../css/Testing.css';
+import Image1 from '../assets/testing1.png';
 
 function Testing() {
   return (
+    <div className="testing">
+
+<section className="section-wrap" id="bannersection">
+              <div className="section-container-full">
+                  <div className="banner_images_2">
+                      <div className="banner_images_desk">
+                          <img 
+                              src={Image1} 
+                              alt="Contact Banner"
+                              className="desktop_banner"
+                          />
+                      </div>
+                  </div>
+              </div>
+          </section>
     <section className="testing-container">
       <h2 className="testing-title">Testing and Quality Assurance</h2>
       <p className="testing-intro">
@@ -52,7 +68,8 @@ function Testing() {
         <strong>Our Commitment to Quality:</strong> Our comprehensive testing, analytical, and experimental capabilities are central to our mission of delivering exceptional products. By leveraging these advanced setups, we ensure that every product we manufacture meets the highest standards of quality and performance. At Heramb Laboratory, we are dedicated to pushing the boundaries of innovation while maintaining the highest levels of quality assurance.
       </p>
     </section>
+    </div>
   );
-}
+};
 
 export default Testing;

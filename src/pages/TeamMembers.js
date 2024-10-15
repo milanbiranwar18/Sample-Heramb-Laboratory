@@ -4,29 +4,34 @@ import Image1 from './images/image1.jpg';
 import Image2 from './images/image2.jpg';
 import Image3 from './images/image3.jpg';
 import Image4 from './images/image4.jpg';
-
+import Image from './images/profile_picture.webp';
 
 const teamMembers = [
     {
-        name: 'Dipti Yadav & Namrata Pawar',
+        name: 'Dipti Yadav',
         role: 'Owner',
-        imgSrc: Image2,
+        imgSrc: Image,
+      },
+      {
+        name: 'Namrata Pawar',
+        role: 'Owner',
+        imgSrc: Image,
       },
   {
     name: 'V. Yadav',
     role: 'Production Manager and R & D Head',
-    imgSrc: Image1, 
+    imgSrc: Image, 
   },
 
   {
     name: 'Sameet Pawar',
     role: 'Administration and Managing Head',
-    imgSrc: Image3,
+    imgSrc: Image,
   },
   {
     name: 'Ranjit Yadav',
     role: 'Analytical Head',
-    imgSrc: Image4,
+    imgSrc: Image,
   },
 ];
 

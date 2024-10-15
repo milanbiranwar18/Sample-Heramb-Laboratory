@@ -1,8 +1,12 @@
+.about_page {
+  background-color: white;
+}
+
 /* Image Section Styling */
 .image-section {
   position: relative;
   width: 100vw; /* Full width of the viewport */
-  height: 70vh; /* Adjust the height of the image section */
+  height: 50vh; /* Adjust the height of the image section */
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevent overflow */
@@ -29,37 +33,45 @@
 /* About Section Styling */
 .about-section {
   padding: 60px 20px;
-  color: #fff;
+  color: #060505;
   text-align: center;
-  background-color: #002b36; /* Dark background color for contrast */
+  background-color: #f7f7fa; /* Dark background color for contrast */
 }
 
-.about-content, .journey-section {
-  background-color: rgba(255, 255, 255, 0.9); /* Light background for readability */
-  padding: 40px;
+/* .about-content, .journey-section {
+  background-color: rgba(255, 255, 255, 0.9); 
   margin: 20px auto;
   max-width: 800px;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
-}
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+} */
 
 .about-content h1, .journey-section h2 {
   font-size: 36px;
   margin-bottom: 20px;
   font-weight: bold;
+  text-align: left;
+  padding-left: 90px;
+  
 }
 
 .about-content p.lead-text {
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: 300;
-  color: #333;
+  color: #090808;
+  text-align: left;
+  padding-left: 90px;
+  padding-right: 550px;
 }
 
 .journey-section p {
   font-size: 18px;
   line-height: 1.6;
-  color: #333;
+  color: #030202;
+  text-align: left;
+  padding-left: 90px;
+  padding-right: 550px;
 }
 
 /* Fade-up Animation */
@@ -91,4 +103,18 @@
   .image-section {
     height: 40vh; /* Adjust the height for smaller screens */
   }
+}
+
+
+
+.image2 {
+  position: relative;
+  width: 50vw; 
+  height: 50vh;
+  margin-top: -1000px;
+  margin-left: 600px;
+  /* padding-top: -100px; */
+  padding-left: 300px;
+  padding-right: 10px;
+  overflow: hidden; 
 }

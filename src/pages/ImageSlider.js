@@ -6,10 +6,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
 import '../css/ImageSlider.css';
-import backgroundImage1 from '../assets/home5.png';
-import backgroundImage2 from '../assets/home7.png';
-import backgroundImage3 from '../assets/home4.png';
-import image1 from '../assets/home8.png';
+import backgroundImage1 from '../assets/home12.png';
+import backgroundImage2 from '../assets/home10.png';
+import backgroundImage3 from '../assets/home13.png';
+import image1 from '../assets/home11.png';
+
 
 function ImageSlider() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);

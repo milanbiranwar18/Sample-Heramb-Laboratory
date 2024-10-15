@@ -87,6 +87,18 @@
   
 
 
+  .popup-container h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+  .popup-container h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 
    /* .popup-container {
     display: flex;

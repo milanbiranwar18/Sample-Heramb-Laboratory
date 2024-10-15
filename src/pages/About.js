@@ -13,7 +13,7 @@ function About() {
     }, []);
 
     return (
-        <div>
+        <div className='about_page'>
             {/* Part 1: Image Section */}
             <section className="image-section">
                 <div className="image-container">
@@ -23,12 +23,17 @@ function About() {
 
             {/* Part 2: About Us Section */}
             <section className="about-section">
+               <div>
+                <div>
                 <div className="about-content" data-aos="fade-up">
                     <h1>About Us</h1>
                     <p className="lead-text">
                         Heramb Laboratory Pvt. Ltd. has been a leader in the chemical industry for over a decade, providing innovative solutions to clients worldwide.
                     </p>
                 </div>
+
+                
+
                 <div className="journey-section" data-aos="fade-up">
                     <h2>Our Journey</h2>
                     <p>
@@ -37,6 +42,12 @@ function About() {
                     <p>
                         Today, as a second-generation company, we continue to uphold our founding principles while embracing the future with new technologies and solutions. Our team’s dedication to excellence, innovation, and customer satisfaction is what drives our success.
                     </p>
+                </div>
+                </div>
+
+                <div className="image1">
+                    <img src={AboutImage} alt="Heramb Laboratory" className="image2" />
+                </div>
                 </div>
             </section>
 
@@ -50,6 +61,6 @@ function About() {
             </section>
         </div>
     );
-}
+};
 
 export default About;

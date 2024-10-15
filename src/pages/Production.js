@@ -4,7 +4,7 @@ import Imgrefresher from '../assets/home9.png';
 
 function Production() {
   return (
-    <div>
+    <div className='prod'>
      <section className="image-section">
         <div className="image-container">
           <img 
@@ -86,7 +86,7 @@ function Production() {
       </div>
       
       <p className="production-commitment">
-        <strong>Our Commitment to Excellence:</strong> At [Your Company Name], we are dedicated to delivering products that not only meet but exceed industry standards. Our state-of-the-art manufacturing processes, rigorous quality control, and commitment to innovation ensure that we provide solutions that enhance performance and reliability for our clients.
+        <strong>Our Commitment to Excellence:</strong> At Haremb Laboratory, we are dedicated to delivering products that not only meet but exceed industry standards. Our state-of-the-art manufacturing processes, rigorous quality control, and commitment to innovation ensure that we provide solutions that enhance performance and reliability for our clients.
       </p>
     </section>
     </div>

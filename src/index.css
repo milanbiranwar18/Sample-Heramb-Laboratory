@@ -41,35 +41,6 @@ body {
   font-size: 24px;
 } */
 
-/* Navbar styles */
-nav {
-  background-color: #001133;
-  padding: 10px 20px;
-  text-align: right;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-nav ul li {
-  display: inline;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #ddd;
-}
 
 /* Main content styles */
 main {
@@ -122,14 +93,7 @@ main {
   color: #f4f0f0;
 }  */
 
-.header {
-  display: flex;
-  justify-content: space-between; /* Align items to both ends of the container */
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #001133;
-  height: 80px;
-}
+
 
 /* .header {
   display: flex;
@@ -139,8 +103,18 @@ main {
   height: 80px; /* 
 } */
 
+.header {
+  display: flex;
+  justify-content: space-between; /* Align items to both ends of the container */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #001133;
+  height: 80px;
+  margin-bottom: 18px;
+}
+
 .logo-container {
-  padding-top: 30px;
+  padding-top: 20px;
   width: 230px; /* Container size stays fixed */
   height: 130px; /* Container size stays fixed */
   overflow: hidden; /* Ensures that any overflowed content is hidden */
@@ -164,7 +138,7 @@ main {
 } */
 
 .header-title {
-  font-size: 32px;
+  font-size: 25px;
   font-style: initial;
   margin-right: 100px;
   color: #f4f0f0;

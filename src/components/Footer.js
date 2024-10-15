@@ -1,7 +1,8 @@
 import React from 'react';
 import "../css/Footer.css";
 import indiamartLogo from '../assets/INDIAMART.png';
-
+// Import Font Awesome for icons
+import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -21,14 +22,24 @@ function Footer() {
             <li>
               <a href="tel:+919822912970">
                 <i className="fas fa-phone-alt"></i> Phone: +91 98229 12970 / +91 98909 11136<br />
-                
-                {/* +91 9049331047 */}
               </a>
             </li>
             <li>
-              <a href="mailto:info@heramblaboratory.co.in">
-                <i className="fas fa-envelope"></i> Email: info@heramblaboratory.co.in
+              <a href="mailto:heramblaboraty@gmail.com">
+                <i className="fas fa-envelope"></i> Contact Person: heramblaboraty@gmail.com
               </a>
+            </li>
+            <li>
+                   {/* WhatsApp Icon */}
+            <a 
+              href="https://wa.me/919822912970?text=Welcome%20to%20Heramb%20Laboratory." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="whatsapp-link"
+            >
+              <FaWhatsapp className='whatsapp-logo' size={32} color="green" />
+              <span className="whatsapp-text">WhatsApp</span>
+            </a>
             </li>
           </ul>
         </div>
@@ -62,13 +73,6 @@ function Footer() {
         <div className="footer-section">
           <h2>Follow Us</h2>
           <div className="social-icons">
-            {/* <a href="" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-youtub"></i>
-            </a> */}
-
             <a href="https://www.indiamart.com/heramblaboratories-pune/profile.html" target="_blank" rel="noopener noreferrer">
               <img src={indiamartLogo} alt="Indiamart" className="indiamart-logo" />
               <span className="indiamart-text">Indiamart</span>
@@ -77,8 +81,8 @@ function Footer() {
         </div>
       </div>
 
-       {/* Copyright Line */}
-       <div className="footer-copyright">
+      {/* Copyright Line */}
+      <div className="footer-copyright">
         <p>© 2024 Heramb Laboratories Pvt. Ltd. All Rights Reserved.</p>
       </div>
     </footer>
@@ -86,7 +90,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-
-

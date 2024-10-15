@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import rndImage from '../assets/randd1.png'; 
 import testingImage from '../assets/testing.png';
 import productionImage from '../assets/home9.png';
-import './PopupBoxes.css'; 
+import '../css/PopupBoxes.css'; 
 import research from '../assets/research.png';
 
 
@@ -15,16 +15,17 @@ function PopupBoxes() {
     <div className="popup-container">
          
          <div>
-      <h3></h3>
-      <p>
-      Whether you're looking for advanced fiber products, high-performance chemicals, or expert testing services, Heramb Laboratory Pvt Ltd. is here to deliver. Explore our comprehensive range of solutions and discover how we can help your business thrive.</p>
+         <h1>Our Expertise and Explore Our Solutions</h1>
+     
+      <h3>
+      <p>Whether you're looking for advanced fiber products, high-performance chemicals, or expert testing services, Heramb Laboratory Pvt Ltd. is here to deliver.</p> <p> Explore our comprehensive range of solutions and discover how we can help your business thrive.</p></h3>
     </div>
 
     <div className="popup-box" onClick={() => navigate("/production")}>
         <img src={productionImage} alt="Manufacturing / Production" />
         <h3>Manufacturing / Production</h3>
-        <p> * Fiber Reinforced Plastic (MEKP & Others)</p>
-        <p>* Cobalt Octate Unsaturated Resin</p>
+        {/* <li> Fiber Reinforced Plastic (MEKP & Others)</li>
+        <li>Cobalt Octate Unsaturated Resin</li> */}
       </div>
       
       <div className="popup-box" onClick={() => navigate("/testing")}>

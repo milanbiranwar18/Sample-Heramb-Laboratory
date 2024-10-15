@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../css/RND.css'; 
+import rndImage from '../assets/randd2.png'; 
 
 function RND() {
   useEffect(() => {
@@ -9,6 +10,25 @@ function RND() {
   }, []);
 
   return (
+
+    <div className='randd'>
+
+        <section className="section-wrap" id="bannersection">
+              <div className="section-container-full">
+                  <div className="banner_images_2">
+                      <div className="banner_images_desk">
+                          <img 
+                              src={rndImage} 
+                              alt="Contact Banner"
+                              className="desktop_banner"
+                          />
+                      </div>
+                  </div>
+              </div>
+          </section>
+          
+
+
     <section className="rnd-section">
       <div className="rnd-content" data-aos="fade-up">
         <h2>Research & Development</h2>
@@ -27,7 +47,8 @@ function RND() {
         </p>
       </div>
     </section>
+    </div>
   );
-}
+};
 
 export default RND;

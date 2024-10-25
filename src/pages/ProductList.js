@@ -6,11 +6,10 @@ import image3 from '../assets/home3.png';
 import image4 from '../assets/home4.png';
 import image5 from '../assets/home5.png';
 
-
 const products = [
   {
     name: 'GP Resin',
-    imgSrc: image1,  
+    imgSrc: image1,
     url: '/gpresin'
   },
   {
@@ -33,7 +32,6 @@ const products = [
     imgSrc: image5,
     url: '/methyl-ethyl-ketone-peroxide'
   },
-
   {
     name: 'Isophthalic Resins',
     imgSrc: image1,  
@@ -54,13 +52,11 @@ const products = [
     imgSrc: image3,
     url: '/methyl-ethyl-ketone'
   },
- 
   {
     name: 'Shoe Rack',
     imgSrc: image5,
     url: '/shoe-rack'
   },
-
   {
     name: 'Vinyl Ester Resin',
     imgSrc: image1,  
@@ -90,16 +86,16 @@ const products = [
 
 const ProductList = () => {
   return (
-    <div className="products-section">
-      <h2 className="products-title">Our Products</h2>
-      <div className="products-container">
+    <div className="new-products-section">
+      <h2 className="new-products-title">Our Products</h2>
+      <div className="new-products-container">
         {products.map((product, index) => (
-          <div className="product-card" key={index}>
-            <div className="product-image-container">
-              <img src={product.imgSrc} alt={product.name} className="product-image" />
+          <div className="new-product-card" key={index}>
+            <div className="new-product-image-container">
+              <img src={product.imgSrc} alt={product.name} className="new-product-image" />
             </div>
-            <h3 className="product-name">{product.name}</h3>
-            <a href={product.url} className="product-link" target="_blank" rel="noopener noreferrer">
+            <h3 className="new-product-name">{product.name}</h3>
+            <a href={product.url} className="new-product-link" target="_blank" rel="noopener noreferrer">
               View Product
             </a>
           </div>

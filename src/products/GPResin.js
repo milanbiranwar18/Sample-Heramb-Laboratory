@@ -3,8 +3,7 @@ import image1 from '../assets/polyester_resin.jpeg';
 import image2 from '../assets/home2.png';
 import image3 from '../assets/home3.png';
 import image4 from '../assets/home4.png';
-import '../css/GPResin.css';
-
+import '../css/ProductList.css'; // Ensure the correct CSS file is imported
 
 const products = [
     {
@@ -27,20 +26,20 @@ const products = [
       imgSrc: image4,
       url: '/MEKPCatalyst'
     }
-  ];
+];
   
-  const GPResin = () => {
+const GPResin = () => {
     return (
-      <div className="products-section">
-        <h2 className="products-title">GP Resin</h2>
-        <div className="products-container">
+      <div className="new-products-section">
+        <h2 className="new-products-title">GP Resin</h2>
+        <div className="new-products-container">
           {products.map((product, index) => (
-            <div className="product-card" key={index}>
-              <div className="product-image-container">
-                <img src={product.imgSrc} alt={product.name} className="product-image" />
+            <div className="new-product-card" key={index}>
+              <div className="new-product-image-container">
+                <img src={product.imgSrc} alt={product.name} className="new-product-image" />
               </div>
-              <h3 className="product-name">{product.name}</h3>
-              <a href={product.url} className="product-link" target="_blank" rel="noopener noreferrer">
+              <h3 className="new-product-name">{product.name}</h3>
+              <a href={product.url} className="new-product-link" target="_blank" rel="noopener noreferrer">
                 View Product
               </a>
             </div>
@@ -48,7 +47,6 @@ const products = [
         </div>
       </div>
     );
-  };
+};
   
-  export default GPResin;
-  
+export default GPResin;

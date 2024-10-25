@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sample-Heramb-Laboratory/static/css/main.b5669d0a.css",
-    "main.js": "/Sample-Heramb-Laboratory/static/js/main.15ef46a8.js",
+    "main.css": "/Sample-Heramb-Laboratory/static/css/main.99884a79.css",
+    "main.js": "/Sample-Heramb-Laboratory/static/js/main.dc58d342.js",
     "static/js/453.80141b32.chunk.js": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js",
     "static/media/image3.jpg": "/Sample-Heramb-Laboratory/static/media/image3.c84a601fbea71dde9d8f.jpg",
     "static/media/image4.jpg": "/Sample-Heramb-Laboratory/static/media/image4.2c8de06cd9c8c6d6b278.jpg",
@@ -35,12 +35,12 @@
     "static/media/Heramb.png": "/Sample-Heramb-Laboratory/static/media/Heramb.ed197d36616a1d85f71a.png",
     "static/media/profile_picture.webp": "/Sample-Heramb-Laboratory/static/media/profile_picture.7a6a6c54279a54d1977c.webp",
     "index.html": "/Sample-Heramb-Laboratory/index.html",
-    "main.b5669d0a.css.map": "/Sample-Heramb-Laboratory/static/css/main.b5669d0a.css.map",
-    "main.15ef46a8.js.map": "/Sample-Heramb-Laboratory/static/js/main.15ef46a8.js.map",
+    "main.99884a79.css.map": "/Sample-Heramb-Laboratory/static/css/main.99884a79.css.map",
+    "main.dc58d342.js.map": "/Sample-Heramb-Laboratory/static/js/main.dc58d342.js.map",
     "453.80141b32.chunk.js.map": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5669d0a.css",
-    "static/js/main.15ef46a8.js"
+    "static/css/main.99884a79.css",
+    "static/js/main.dc58d342.js"
   ]
 }

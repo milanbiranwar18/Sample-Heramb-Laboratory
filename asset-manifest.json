@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Sample-Heramb-Laboratory/static/css/main.80d05019.css",
-    "main.js": "/Sample-Heramb-Laboratory/static/js/main.d412d5bb.js",
-    "static/js/453.80141b32.chunk.js": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js",
+    "main.css": "/Sample-Heramb-Laboratory/static/css/main.5dcf2241.css",
+    "main.js": "/Sample-Heramb-Laboratory/static/js/main.17839b5b.js",
+    "static/js/453.664b0be8.chunk.js": "/Sample-Heramb-Laboratory/static/js/453.664b0be8.chunk.js",
     "static/media/home11.png": "/Sample-Heramb-Laboratory/static/media/home11.48d4a00bd5a9f65eb9cb.png",
     "static/media/home10.png": "/Sample-Heramb-Laboratory/static/media/home10.b9ee42cbf144355a903f.png",
     "static/media/home13.png": "/Sample-Heramb-Laboratory/static/media/home13.82172766ef14cd6871e2.png",
@@ -12,7 +12,6 @@
     "static/media/randd2.png": "/Sample-Heramb-Laboratory/static/media/randd2.2a9f4be92c14c19b6611.png",
     "static/media/home9.png": "/Sample-Heramb-Laboratory/static/media/home9.a358b966b964b98378e0.png",
     "static/media/home5.png": "/Sample-Heramb-Laboratory/static/media/home5.104f701e0a3a0f8883dc.png",
-    "static/media/home2.png": "/Sample-Heramb-Laboratory/static/media/home2.0b923eba4a807d9bedab.png",
     "static/media/home4.png": "/Sample-Heramb-Laboratory/static/media/home4.5144b7660adad8804a9e.png",
     "static/media/home1.png": "/Sample-Heramb-Laboratory/static/media/home1.6ab6f09104b0087ac8c1.png",
     "static/media/Designer2.png": "/Sample-Heramb-Laboratory/static/media/Designer2.48301e898a06341b2fed.png",
@@ -26,19 +25,31 @@
     "static/media/contact_page.png": "/Sample-Heramb-Laboratory/static/media/contact_page.e406758831715a304eab.png",
     "static/media/cantact_backgraund.png": "/Sample-Heramb-Laboratory/static/media/cantact_backgraund.02d0d91df5a9c634a28d.png",
     "static/media/randd1.png": "/Sample-Heramb-Laboratory/static/media/randd1.58e8d67e883c7fe07bd8.png",
+    "static/media/mekphardener.jpg": "/Sample-Heramb-Laboratory/static/media/mekphardener.370673fe694c4645d380.jpg",
+    "static/media/hydrogenperoxide.jpg": "/Sample-Heramb-Laboratory/static/media/hydrogenperoxide.5a7155325b72571989f4.jpg",
     "static/media/polyester_resin.jpeg": "/Sample-Heramb-Laboratory/static/media/polyester_resin.f929305e53f547d0b1c5.jpeg",
+    "static/media/isophthalicresin.jpg": "/Sample-Heramb-Laboratory/static/media/isophthalicresin.adb0695389b6645b2940.jpg",
+    "static/media/fiberglass.jpg": "/Sample-Heramb-Laboratory/static/media/fiberglass.b5e8e582285d99551ecf.jpg",
     "static/media/image1.jpg": "/Sample-Heramb-Laboratory/static/media/image1.fc26baf1f834aa7aaf90.jpg",
-    "static/media/gpresin.jpg": "/Sample-Heramb-Laboratory/static/media/gpresin.c1bc322ea05da7916cf7.jpg",
+    "static/media/gpresinimg.jpg": "/Sample-Heramb-Laboratory/static/media/gpresinimg.cac3cb084ef94c91d30b.jpg",
+    "static/media/monoeg.jpg": "/Sample-Heramb-Laboratory/static/media/monoeg.9ba0acb2d347521e8dd0.jpg",
+    "static/media/vinylesterresinsecond.jpg": "/Sample-Heramb-Laboratory/static/media/vinylesterresinsecond.b612f06ff097e8e12932.jpg",
+    "static/media/cobaltoctoate.jpg": "/Sample-Heramb-Laboratory/static/media/cobaltoctoate.ee45233cc41fd1096312.jpg",
+    "static/media/talcumpowder.jpg": "/Sample-Heramb-Laboratory/static/media/talcumpowder.646866f71ae5f3488103.jpg",
+    "static/media/vinylesterresin.jpg": "/Sample-Heramb-Laboratory/static/media/vinylesterresin.cd1680954602798adbb2.jpg",
+    "static/media/cobaltoctoate3percent.jpg": "/Sample-Heramb-Laboratory/static/media/cobaltoctoate3percent.ba75dcd4c40740cbc9a8.jpg",
     "static/media/INDIAMART.png": "/Sample-Heramb-Laboratory/static/media/INDIAMART.340ad268140f3903aad7.png",
     "static/media/Heramb.png": "/Sample-Heramb-Laboratory/static/media/Heramb.ed197d36616a1d85f71a.png",
     "static/media/profile_picture.webp": "/Sample-Heramb-Laboratory/static/media/profile_picture.7a6a6c54279a54d1977c.webp",
+    "static/media/cobaltoctoate6percent.jpg": "/Sample-Heramb-Laboratory/static/media/cobaltoctoate6percent.4dece55283d5588c017f.jpg",
+    "static/media/clear.jpg": "/Sample-Heramb-Laboratory/static/media/clear.206687a01f0eaeb36889.jpg",
     "index.html": "/Sample-Heramb-Laboratory/index.html",
-    "main.80d05019.css.map": "/Sample-Heramb-Laboratory/static/css/main.80d05019.css.map",
-    "main.d412d5bb.js.map": "/Sample-Heramb-Laboratory/static/js/main.d412d5bb.js.map",
-    "453.80141b32.chunk.js.map": "/Sample-Heramb-Laboratory/static/js/453.80141b32.chunk.js.map"
+    "main.5dcf2241.css.map": "/Sample-Heramb-Laboratory/static/css/main.5dcf2241.css.map",
+    "main.17839b5b.js.map": "/Sample-Heramb-Laboratory/static/js/main.17839b5b.js.map",
+    "453.664b0be8.chunk.js.map": "/Sample-Heramb-Laboratory/static/js/453.664b0be8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80d05019.css",
-    "static/js/main.d412d5bb.js"
+    "static/css/main.5dcf2241.css",
+    "static/js/main.17839b5b.js"
   ]
 }

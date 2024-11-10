@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sample-Heramb-Laboratory/static/css/main.e6f61dba.css",
-    "main.js": "/Sample-Heramb-Laboratory/static/js/main.6d0edc14.js",
+    "main.css": "/Sample-Heramb-Laboratory/static/css/main.399c719a.css",
+    "main.js": "/Sample-Heramb-Laboratory/static/js/main.0c18373a.js",
     "static/js/453.664b0be8.chunk.js": "/Sample-Heramb-Laboratory/static/js/453.664b0be8.chunk.js",
     "static/media/home11.png": "/Sample-Heramb-Laboratory/static/media/home11.48d4a00bd5a9f65eb9cb.png",
     "static/media/home10.png": "/Sample-Heramb-Laboratory/static/media/home10.b9ee42cbf144355a903f.png",
@@ -41,14 +41,15 @@
     "static/media/Heramb.png": "/Sample-Heramb-Laboratory/static/media/Heramb.ed197d36616a1d85f71a.png",
     "static/media/profile_picture.webp": "/Sample-Heramb-Laboratory/static/media/profile_picture.7a6a6c54279a54d1977c.webp",
     "static/media/cobaltoctoate6percent.jpg": "/Sample-Heramb-Laboratory/static/media/cobaltoctoate6percent.4dece55283d5588c017f.jpg",
+    "static/media/heramblogo.jpg": "/Sample-Heramb-Laboratory/static/media/heramblogo.a7d951895be7662af354.jpg",
     "static/media/clear.jpg": "/Sample-Heramb-Laboratory/static/media/clear.206687a01f0eaeb36889.jpg",
     "index.html": "/Sample-Heramb-Laboratory/index.html",
-    "main.e6f61dba.css.map": "/Sample-Heramb-Laboratory/static/css/main.e6f61dba.css.map",
-    "main.6d0edc14.js.map": "/Sample-Heramb-Laboratory/static/js/main.6d0edc14.js.map",
+    "main.399c719a.css.map": "/Sample-Heramb-Laboratory/static/css/main.399c719a.css.map",
+    "main.0c18373a.js.map": "/Sample-Heramb-Laboratory/static/js/main.0c18373a.js.map",
     "453.664b0be8.chunk.js.map": "/Sample-Heramb-Laboratory/static/js/453.664b0be8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f61dba.css",
-    "static/js/main.6d0edc14.js"
+    "static/css/main.399c719a.css",
+    "static/js/main.0c18373a.js"
   ]
 }
